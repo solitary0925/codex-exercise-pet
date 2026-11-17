@@ -1,0 +1,20 @@
+{
+  "name": "exercise-pet-local",
+  "interface": {
+    "displayName": "本地运动提醒"
+  },
+  "plugins": [
+    {
+      "name": "codex-exercise-pet",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex-exercise-pet"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
